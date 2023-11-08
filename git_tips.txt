@@ -1,0 +1,23 @@
+Create a new branch based on   branch_1 and give  the new branch name branch_2
+
+1) Make sure you're on the branch_1:
+git checkout branch_1
+
+2) Create a new branch: Autmatic uppdated from tha branch_1
+git checkout -b branch_1
+
+
+
+3) Update the branch_1 from branch_2
+git checkout branc_1
+git merge --no-ff branch_2
+
+
+4) secure on right branch
+git checkout branc_2
+do updates
+
+5) commits
+git add * or git add .
+
+git push origin develop
